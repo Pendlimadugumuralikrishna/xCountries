@@ -11,7 +11,7 @@ function Countries() {
       const countries = res.data;
       return countries;
     } catch (e) {
-      console.error(`Error fetching data: ${e}`);
+      console.error(`Error fetching data:${e}`);
     }
   }
   useEffect(() => {
